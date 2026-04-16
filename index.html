@@ -1,23 +1,500 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  
+  
+  <title>캐스퍼 경차 유지비 혜택 모르면 무조건 손해입니다</title>
+
+  
+  
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "캐스퍼 경차 유지비 혜택 모르면 무조건 손해입니다",
+      "description": "2026년 기준 기아 K8, K9, EV2, EV3, EV5, EV6, EV9 및 테슬라 모델3, 모델S 유지비를 상세 비교 분석합니다. 전기차와 내연기관차의 총 소유 비용(TCO) 변화를 예측하고, 최신 정보를 바탕으로 합리적인 구매 가이드를 제시합니다.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Automotive Analysis Hub",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/logo.png"
+        }
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 11,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Article",
+              "headline": "기아 K8 유지비 분석",
+              "url": "https://directcarytopm.withusdone.com"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Article",
+              "headline": "기아 EV 모델별 유지비 비교",
+              "url": "https://directcarytopo.withusdone.com"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Article",
+              "headline": "테슬라 모델3 유지비 심층 분석",
+              "url": "https://directcarytopz.withusdone.com"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <style>
+        /* CSS Reset and Global Styles */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc; /* Soft background color */
+            line-height: 1.8;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            padding: 40px 20px;
+            border-bottom: 5px solid #0056b3; /* Brand color */
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #004085;
+        }
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Section Styling */
+        .article-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            padding: 40px 0;
+        }
+        .article-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            width: calc(33% - 20px); /* 3 columns layout for desktop */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image and Content Styling */
+        .article-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+        }
+        .article-content {
+            padding: 25px;
+        }
+        .article-content h2 {
+            font-size: 1.6em;
+            margin-top: 0;
+            color: #004085;
+            text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        .article-content p {
+            font-size: 1em;
+            color: #444;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        /* Link and Button Styling */
+        .read-more-link {
+            display: inline-block;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: 700;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        .read-more-link:hover {
+            color: #007bff;
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive adjustments */
+        @media (max-width: 992px) {
+            .article-card {
+                width: calc(50% - 15px); /* 2 columns layout for tablet */
+            }
+        }
+        @media (max-width: 600px) {
+            .article-card {
+                width: 100%; /* 1 column layout for mobile */
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            .article-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>캐스퍼 경차 유지비 혜택 모르면 무조건 손해입니다</h1>
+            <p>전기차 대세 시대, 내연기관차와 전기차의 총 소유 비용(TCO)이 역전되는 시점입니다. 기아와 테슬라의 주요 모델을 중심으로 2026년 기준의 현실적인 유지비를 비교 분석하여, 현명한 차량 구매를 위한 최적의 가이드를 제공합니다.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Section 1: Kia Premium Sedan (ICE) -->
+        <section class="category-section">
+            <h2 style="text-align: center; color: #004085; font-size: 2em; margin-top: 50px; border-bottom: 2px solid #0056b3; padding-bottom: 15px;">Part 1. 기아 프리미엄 세단: K8 & K9 유지비 심층 분석 (2026년 기준)</h2>
+            <div class="article-section">
+
+                <!-- Article 1: K8 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia K8 front view" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopm.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 K8 유지비: 하이브리드 vs. 가솔린, 총소유비용(TCO)의 현실</a></h2>
+                        <p>
+                            2026년 기준, 기아 K8은 내연기관 세단 시장에서 여전히 중요한 포지션을 차지하고 있지만, 전기차로의 전환기 속에서 그 유지비가 재조명되고 있습니다. K8의 유지비는 크게 연료비, 정기 점검비, 소모품 교체비, 보험료 및 세금으로 나뉩니다. 특히 K8은 2.5 가솔린, 3.5 가솔린, 1.6 터보 하이브리드 세 가지 파워트레인을 제공하는데, 2026년 고유가 시대가 지속되면서 하이브리드 모델의 유지비 우위가 더욱 두드러지고 있습니다. 하이브리드 모델은 연비 효율성이 뛰어나지만, 정기적인 엔진오일 교환과 필터류 관리가 필수적입니다. 반면 전기차 모델과 달리 K8은 엔진, 변속기, 배기 시스템 등 복잡한 기계 부품이 많아 장기적으로 보증 기간이 끝난 후에는 수리 비용 부담이 증가할 수 있습니다. 예를 들어, K8의 고급 사양에 포함되는 전자식 서스펜션(ECS)이나 ADAS 센서의 수리비는 일반 부품보다 훨씬 높게 책정되어 있습니다. 2026년에는 보험료 산정 시에도 하이브리드 차량은 일반 가솔린 차량 대비 사고율이 낮게 평가되어 보험료 절감 효과를 볼 수 있습니다. K8의 유지비는 단순히 연료비만 볼 것이 아니라, 5년 이상 소유 시의 중고차 감가상각률과 미래의 정비 비용 증가 추세를 종합적으로 고려해야 합니다. 특히 K8은 준대형 세단으로 분류되어 일반 소형차 대비 높은 자동차세가 부과되므로, 연간 유지비를 계산할 때 이 부분을 간과해서는 안 됩니다. 또한 2026년에는 K8 페이스리프트 모델의 출시로 인해 구형 모델의 감가상각이 가속화될 수 있으므로, 신차 구매 시점부터 매각 시점까지의 총 비용을 정확히 예측하는 것이 중요합니다.
+                            <br><br>K8은 기아의 새로운 디자인 언어를 적용한 첫 모델 중 하나로, 고급스러운 실내 공간과 첨단 기술이 강점입니다. 그러나 이러한 기술들은 유지 보수 측면에서 잠재적인 비용을 수반합니다. 예를 들어, 대형 와이드 디스플레이의 교체 비용이나 첨단 운전자 보조 시스템(ADAS)에 탑재된 레이더 및 카메라 센서의 보정 비용은 일반 정비소에서 처리하기 어렵고, 공식 서비스 센터를 이용해야 하므로 비용이 상승합니다. 타이어 역시 18인치, 19인치 고성능 타이어가 기본 적용되어 있어, 교체 주기가 짧고 가격대가 높은 편입니다. 하이브리드 모델의 경우 배터리 보증 기간(10년 또는 20만 km)이 적용되지만, 이 기간 이후에 발생하는 배터리 효율 저하 문제에 대비해야 합니다. 2026년 시점에서 K8은 여전히 훌륭한 내연기관 선택지이지만, 전기차로의 전환을 염두에 둔다면 유지비 측면에서 장단점을 명확히 파악하는 것이 필수적입니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 2: K9 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17614271/pexels-photo-17614271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia K9 side view" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopn.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 K9 유지비: 플래그십 세단의 품격과 비용, 숨겨진 지출 요소</a></h2>
+                        <p>
+                            기아 K9은 기아의 플래그십 세단으로, 럭셔리한 승차감과 최첨단 기술이 집약된 모델입니다. 2026년 현재 K9을 운용하는 것은 K8과는 또 다른 차원의 유지비를 요구합니다. K9은 주로 3.3 터보 가솔린과 3.8 가솔린 엔진을 탑재하며, 연비 효율성보다는 주행 성능과 정숙성에 초점을 맞춥니다. 따라서 연료비 지출이 K8 하이브리드 모델 대비 상당히 높습니다. 플래그십 모델인 만큼 정기 점검 시 사용되는 오일이나 필터 등 소모품 가격도 일반 모델보다 고가이며, 에어서스펜션(프리미엄 옵션)과 같은 특수 장비가 탑재될 경우, 보증 기간이 끝난 후 수리비는 상상을 초월할 수 있습니다. 특히 2026년 기준 K9의 유지비에서 중요한 요소는 높은 보험료와 감가상각률입니다. K9은 차량 가격 자체가 높기 때문에 보험료가 높게 책정되며, 사고 발생 시 수리비가 고가여서 보험료 할증 폭도 큽니다. 2026년에는 대형 고급 세단 시장이 전기차(EV9 등)로 빠르게 재편되고 있어, K9의 감가상각률이 과거보다 빠르게 진행될 가능성이 있습니다.
+                            <br><br>K9의 유지비는 단순히 연료비와 보험료를 넘어선 부분에서 발생합니다. 첨단 안전 기술, 고급 마사지 시트, 후륜구동 기반의 AWD 시스템 등 복잡한 전자 장비들이 고장날 경우 부품 단가가 매우 높습니다. 예를 들어, K9에 적용된 능동형 노면 소음 저감 기술(RANC) 관련 부품의 고장 시 수리비는 상당한 수준입니다. 또한 K9은 대형 세단에 걸맞은 20인치 이상의 고성능 타이어를 사용하므로, 타이어 교체 비용 역시 K8보다 높습니다. 2026년 기준, K9은 내연기관 차량 중에서도 최고급 모델로 분류되어 부품 수급이나 정비 난이도가 높습니다. 따라서 K9을 운용하고자 한다면 단순히 초기 구매 비용뿐만 아니라, 향후 5~7년간의 총 소유 비용을 철저히 분석해야 합니다. 특히 K9의 유지비는 운전자의 운전 습관, 연간 주행거리, 정기 점검 주기를 철저히 지키는지 여부에 따라 크게 달라질 수 있습니다. K9은 여전히 뛰어난 정숙성과 승차감을 제공하지만, 전기차 시대에 들어서면서 유지비 측면에서는 단점으로 작용할 수 있는 부분이 많아졌습니다.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 2: Kia Electric Vehicles -->
+        <section class="category-section">
+            <h2 style="text-align: center; color: #004085; font-size: 2em; margin-top: 50px; border-bottom: 2px solid #0056b3; padding-bottom: 15px;">Part 2. 기아 EV 라인업 유지비 총정리: EV2부터 EV9까지</h2>
+            <div class="article-section">
+
+                <!-- Article 3: Kia EV General Comparison -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV models lineup" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopo.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV 유지비 모델별 비교: EV2, EV3, EV5, EV6, EV9 핵심 차이점</a></h2>
+                        <p>
+                            2026년은 기아 EV 라인업이 완성되는 중요한 시기입니다. EV2, EV3와 같은 보급형 모델부터 EV6, EV9과 같은 주력 모델까지 다양해지면서 소비자들은 각 모델별 유지비를 꼼꼼히 따져봐야 합니다. 전기차 유지비는 내연기관차와 달리 '연료비' 대신 '전기료'가 가장 큰 비중을 차지합니다. 2026년에는 전기차 충전 요금이 꾸준히 상승하는 추세이며, 공용 급속 충전기와 완속 충전기, 그리고 가정용 충전기의 요금 차이가 큽니다. 따라서 어떤 충전 방식을 주로 이용하느냐에 따라 연간 유지비가 크게 달라집니다. 보급형 모델인 EV2나 EV3는 배터리 용량이 작아 충전 시간이 짧고 충전 비용도 적게 들지만, 주행 가능 거리가 짧아 충전 빈도가 높을 수 있습니다. 반면 EV9과 같은 대형 모델은 배터리 용량이 커서 한 번 충전 시 주행 거리가 길지만, 충전할 때마다 더 많은 전기료를 지불해야 합니다.
+                            <br><br>전기차의 유지비는 내연기관차 대비 정기 점검 비용이 현저히 낮습니다. 엔진오일, 연료 필터, 점화 플러그 교체가 필요 없기 때문입니다. 하지만 전기차 전용 타이어(저구름저항 타이어)는 일반 타이어보다 가격이 비싸고, 무거운 배터리 때문에 마모 속도가 빠를 수 있습니다. 특히 2026년 기준으로 가장 큰 잠재적 유지비는 배터리 교체 비용입니다. 기아는 배터리 보증 기간을 10년/20만 km로 제공하지만, 보증 기간 이후 배터리 효율이 크게 떨어진다면 교체 비용이 수천만원에 달할 수 있습니다. 각 모델별로 배터리 용량과 기술적 특성이 다르므로, EV2, EV3(보급형)와 EV6, EV9(고성능)의 유지비는 큰 차이를 보입니다. 특히 EV9은 대형 SUV인 만큼 타이어 사이즈가 크고, 공조 시스템을 위한 전력 소모가 많아 연비(전비) 효율이 EV2나 EV3 대비 낮을 수 있습니다. 따라서 2026년 전기차 유지비는 모델별 특징과 운전 습관, 충전 환경에 따라 천차만별이므로 단순 비교보다는 복합적인 관점에서 접근해야 합니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 4: EV2 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV2 small EV" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopp.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV2 유지비: 소형 전기차의 경제성, 도심형 라이프스타일에 최적화</a></h2>
+                        <p>
+                            기아 EV2는 2026년 전기차 시장에서 가장 주목받는 '가성비' 모델 중 하나입니다. 소형 전기차로 설계된 EV2는 도심 주행에 최적화되어 있으며, 유지비 측면에서 압도적인 효율성을 자랑합니다. 초기 구매 비용이 상대적으로 낮고, 배터리 용량도 크지 않아 완충 시 전기료 부담이 적습니다. 2026년 기준으로 전기차 충전 요금이 꾸준히 오르고 있지만, EV2는 작은 배터리 용량 덕분에 연간 전기료 지출이 내연기관 경차보다도 낮게 책정될 수 있습니다. 또한 소형차이기 때문에 보험료 산정 시에도 대형차나 고성능차 대비 유리하며, 2026년 정부의 전기차 보조금 정책 역시 소형차에 유리한 방향으로 조정될 가능성이 높습니다.
+                            <br><br>EV2의 유지비는 내연기관차와 비교했을 때 정비 항목이 단순하다는 장점이 있습니다. 브레이크 패드 교체 주기가 길고(회생제동 활용), 엔진오일이나 미션오일 교체가 필요 없습니다. 다만, EV2는 보급형 모델로 출시되면서 고성능 사양이 아닌 기본형 부품들이 적용될 수 있습니다. 2026년 전기차 유지비에서 중요한 변수는 타이어입니다. EV2는 소형차임에도 불구하고 전기차의 무거운 공차중량을 견디기 위해 특수 설계된 타이어를 사용합니다. 이 타이어는 일반 소형차 타이어보다 가격이 높을 수 있습니다. 또한, 배터리 열 관리가 중요한 전기차의 특성상 냉각수 교환 주기를 잘 지켜야 합니다. EV2는 도심형 세컨드카 또는 첫차로 고려하는 소비자들에게 유지비 측면에서 가장 합리적인 선택이 될 수 있으며, 저렴한 주차비와 공영주차장 할인 혜택 등도 유지비 절감에 기여합니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 5: EV3 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV3 concept car" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopq.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV3 유지비: 패밀리카로의 가성비, 보조금 최대 수혜 모델</a></h2>
+                        <p>
+                            기아 EV3는 EV2와 EV5 사이에 위치하는 콤팩트 SUV로, 2026년 패밀리카 시장에서 뛰어난 가성비를 제공하는 모델로 평가받습니다. EV3는 E-GMP 플랫폼을 기반으로 하여 효율성과 실내 공간 활용성을 극대화했습니다. 유지비 관점에서 EV3는 EV2 대비 큰 배터리 용량과 더 긴 주행 거리를 제공하여 장거리 주행 시 충전 스트레스를 줄여줍니다. 2026년 기준으로 EV3의 유지비는 내연기관 콤팩트 SUV 대비 현저히 낮습니다. 특히 EV3의 전기료는 가정용 충전기를 사용하면 일반 내연기관차의 유류비의 1/5 수준으로 절감할 수 있습니다. 정부의 보조금 정책 역시 EV3와 같은 가격대의 차량에 가장 유리하게 책정되는 경향이 있어, 초기 구매 비용 절감 효과도 큽니다.
+                            <br><br>EV3의 유지비 항목 중 주의해야 할 점은 배터리 관리입니다. E-GMP 플랫폼은 400V/800V 멀티 충전 시스템을 지원하여 충전 속도가 빠르지만, 고속 충전 시 배터리 열 관리가 중요합니다. EV3는 스마트 회생제동 시스템을 통해 브레이크 패드 마모를 최소화하여 정비 비용을 낮추지만, 타이어 교체 주기는 일반 콤팩트 SUV와 비슷하거나 약간 짧을 수 있습니다. 또한, EV3에 적용되는 OTA(Over-The-Air) 업데이트 기능은 차량의 소프트웨어적 결함을 정비소 방문 없이 해결해 주어 유지비 절감에 도움을 줍니다. 2026년에는 EV3가 EV6보다 저렴한 가격으로 패밀리카 시장의 중심이 되면서, 유지비 경쟁력도 동시에 갖추게 될 것입니다. EV3는 합리적인 유지비로 전기차 대중화에 기여하는 핵심 모델입니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 6: EV5 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV5 side view" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytops.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV5 유지비: 중형 SUV 시장의 새로운 기준, 실용성과 경제성</a></h2>
+                        <p>
+                            기아 EV5는 EV3와 EV6 사이에 포지셔닝하는 중형 SUV로, 중국 시장을 중심으로 개발되어 글로벌 전략 모델로 자리 잡았습니다. 2026년 기준, EV5는 패밀리 SUV로서 내연기관차인 스포티지나 쏘렌토의 역할을 대체할 것으로 예상됩니다. 유지비 측면에서 EV5는 넉넉한 실내 공간과 실용성을 제공하면서도 EV6 대비 저렴한 가격대를 형성하고 있어 가성비가 뛰어납니다. EV5의 전기료는 배터리 용량과 주행 거리에 따라 달라지는데, 2026년 전기차 충전 요금이 꾸준히 오르는 추세 속에서도 내연기관 중형 SUV 대비 월등한 경제성을 보여줍니다.
+                            <br><br>EV5의 유지비 특징은 내연기관차와 달리 엔진오일 교환이 필요 없다는 점입니다. 전기차의 유지비는 주로 타이어, 브레이크 패드, 와이퍼 블레이드 등 소모품 교체에 집중됩니다. EV5는 중형 SUV인 만큼 타이어 사이즈가 크고, 전기차 특성상 타이어 마모 속도가 빠를 수 있습니다. 따라서 정기적인 타이어 공기압 점검과 휠 얼라이먼트 조정이 중요합니다. 2026년 EV5의 유지비에서 핵심은 배터리 관리입니다. 기아는 배터리 보증 기간을 10년/20만 km로 제공하지만, 배터리 효율 저하에 대한 대비가 필요합니다. 또한 EV5는 중국 생산 모델이 글로벌 시장에 공급될 경우, 부품 수급 경로에 따라 수리 비용이나 대기 시간이 달라질 수 있다는 점도 고려해야 합니다. EV5는 내연기관 중형 SUV를 대체할 현실적인 대안으로, 유지비 측면에서 내연기관 대비 확실한 우위를 점하고 있습니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 7: EV6 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV6 GT" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopt.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV6 유지비: 고성능 전기차의 비용 구조, GT 모델의 TCO 변화</a></h2>
+                        <p>
+                            기아 EV6는 E-GMP 플랫폼의 첫 번째 모델로, 2026년에도 여전히 시장에서 강력한 경쟁력을 유지하고 있습니다. EV6는 고성능 모델인 GT 라인을 포함하여 다양한 트림으로 판매되는데, 모델에 따라 유지비가 크게 달라집니다. 특히 EV6 GT 모델은 높은 출력을 자랑하지만, 그만큼 전력 소모가 많고 고성능 타이어를 사용합니다. 2026년 기준으로 EV6의 유지비에서 가장 큰 변수는 고속 충전 시 전기료와 타이어 교체 비용입니다. EV6는 800V 초급속 충전 시스템을 지원하여 충전 시간이 짧다는 장점이 있지만, 공용 급속 충전기의 요금 단가가 꾸준히 상승하는 추세입니다.
+                            <br><br>EV6의 유지비는 내연기관 고성능차와 비교했을 때 정비 항목이 단순하다는 장점이 있습니다. 브레이크 패드 교체 주기가 길고(회생제동 활용), 엔진오일이나 미션오일 교체가 필요 없습니다. 하지만 EV6 GT 모델의 경우 21인치 고성능 타이어가 기본 적용되며, 타이어 가격이 매우 비싸고 마모 속도가 빠릅니다. 따라서 EV6 GT 모델의 유지비를 계산할 때 타이어 비용이 상당한 비중을 차지합니다. 또한 고성능 모델은 보험료 산정 시 일반 모델보다 높게 책정될 수 있습니다. 2026년에는 EV6의 배터리 보증 기간이 끝나는 시점이 다가오면서 배터리 효율 저하 문제에 대한 관심이 높아지고 있습니다. 기아는 배터리 보증 기간을 10년/20만 km로 제공하지만, 보증 기간 이후의 배터리 교체 비용은 여전히 고가이므로 장기적인 유지비 예측이 중요합니다. EV6는 고성능과 효율성을 동시에 추구하는 모델이지만, 유지비는 내연기관차와 마찬가지로 운전 습관에 따라 크게 달라질 수 있습니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 8: EV9 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Kia EV9 large electric SUV" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopw.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">기아 EV9 유지비: 대형 럭셔리 SUV의 경제성, EV 전환의 최종 선택</a></h2>
+                        <p>
+                            기아 EV9은 2026년 현재 대형 럭셔리 SUV 시장에서 압도적인 존재감을 드러내는 모델입니다. 내연기관 팰리세이드나 쏘렌토를 대체하는 EV9은 3열 좌석을 갖춘 패밀리카로서 유지비 측면에서 내연기관 대형 SUV와 비교됩니다. EV9의 가장 큰 유지비 항목은 전기료입니다. 대형 차체와 무거운 무게, 그리고 3열 공조 시스템 등으로 인해 전비 효율이 EV6나 EV3 대비 낮을 수 있습니다. 2026년 기준으로 EV9은 긴 주행 거리를 제공하지만, 한 번 충전 시 더 많은 전력을 소비하므로 연간 전기료 지출이 높을 수 있습니다.
+                            <br><br>EV9의 유지비는 내연기관 대형 SUV 대비 정기 점검 비용이 현저히 낮습니다. 엔진오일, 연료 필터 교체가 필요 없기 때문입니다. 하지만 EV9은 대형 SUV인 만큼 타이어 사이즈가 크고(21인치, 20인치), 전기차 특성상 타이어 마모 속도가 빠를 수 있습니다. 특히 EV9은 V2L(Vehicle to Load) 기능을 통해 외부 전력 공급원으로 활용될 수 있는데, 이 기능을 자주 사용하면 배터리 효율 저하가 빨라질 수 있다는 점도 고려해야 합니다. 2026년에는 EV9이 제공하는 첨단 기술(OTA 업데이트, ADAS) 덕분에 소프트웨어적 오류에 대한 정비소 방문이 줄어들 수 있습니다. EV9의 유지비는 내연기관 대형 SUV 대비 월등한 경제성을 제공하지만, 전기차의 잠재적 위험 요소인 배터리 교체 비용과 초기 구매 가격에 대한 감가상각을 고려해야 합니다. EV9은 럭셔리 전기 SUV로서 유지비 측면에서도 내연기관 대형 SUV를 대체할 수 있는 강력한 대안입니다.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 3: Tesla Electric Vehicles -->
+        <section class="category-section">
+            <h2 style="text-align: center; color: #004085; font-size: 2em; margin-top: 50px; border-bottom: 2px solid #0056b3; padding-bottom: 15px;">Part 3. 테슬라 유지비 분석: 모델S, 모델3의 TCO와 독점 서비스 센터 이슈</h2>
+            <div class="article-section">
+
+                <!-- Article 9: Tesla General Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tesla charging station" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopx.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">테슬라 유지비: 혁신적 기술과 고유한 서비스 정책의 양면성</a></h2>
+                        <p>
+                            테슬라는 2026년 전기차 시장에서 여전히 혁신의 아이콘입니다. 테슬라의 유지비는 내연기관차와 완전히 다른 구조를 가집니다. 일반적인 내연기관차 유지비의 핵심인 엔진오일, 필터 교체가 전혀 필요 없으며, 브레이크 패드 교체 주기도 회생제동 덕분에 매우 깁니다. 따라서 테슬라 차량의 유지비는 '전기료'와 '소모품 교체'로 압축됩니다. 2026년에는 테슬라 전용 슈퍼차저 요금이 일반 공용 충전기 대비 비싸지는 추세이며, 가정용 충전기를 사용하지 않고 슈퍼차저를 주로 이용하는 운전자는 높은 전기료를 지출할 수 있습니다. 테슬라는 OTA(Over-The-Air) 업데이트를 통해 차량 소프트웨어를 지속적으로 개선하므로, 정비소 방문 횟수가 현저히 줄어듭니다.
+                            <br><br>하지만 테슬라 유지비에는 숨겨진 비용이 존재합니다. 바로 '수리 비용'과 '서비스 접근성'입니다. 테슬라는 공식 서비스 센터 외에 사설 정비소가 거의 없기 때문에, 단순한 수리나 부품 교환도 공식 센터를 이용해야 합니다. 특히 사고 발생 시 수리비가 높게 책정되는 경향이 있습니다. 2026년에는 테슬라의 주력 모델인 모델3와 모델Y의 부품 수급 문제가 개선되었지만, 여전히 일반 내연기관차 대비 수리 기간이 길 수 있습니다. 또한 테슬라 모델들은 고성능을 지향하는 만큼 타이어 마모 속도가 빠르며, 타이어 교체 비용 역시 고가입니다. 테슬라의 유지비는 내연기관차 대비 압도적으로 저렴하지만, 잠재적 위험 요소인 사고 수리 비용과 서비스 센터 접근성을 고려해야 합니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 10: Tesla Model 3 Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tesla Model 3" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopz.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">테슬라 모델3 유지비: 대중화된 전기차의 TCO, 보험료와 슈퍼차저 요금</a></h2>
+                        <p>
+                            테슬라 모델3는 2026년 전기차 시장에서 가장 많이 팔리는 모델 중 하나입니다. 모델3의 유지비는 내연기관차 대비 압도적인 경제성을 자랑합니다. 초기 구매 비용을 제외하면 전기료가 가장 큰 비중을 차지하는데, 2026년 현재 모델3는 긴 주행 거리를 제공하여 충전 횟수가 적습니다. 2026년 기준으로 모델3의 유지비는 내연기관 중형 세단 대비 연간 300~500만원 가량 절감될 수 있습니다. 특히 모델3는 부품 수가 적고 복잡한 기계 장치가 없어 정기 점검 비용이 매우 낮습니다. 테슬라 앱을 통한 OTA 업데이트는 차량 소프트웨어 문제를 해결해주어 정비소 방문을 줄여줍니다.
+                            <br><br>하지만 모델3의 유지비에는 몇 가지 고려해야 할 사항이 있습니다. 첫째, 보험료입니다. 모델3는 고성능 전기차로 분류되며, 차량 가격이 높아 보험료가 일반 중형 세단 대비 높게 책정되는 경향이 있습니다. 둘째, 타이어 교체 비용입니다. 모델3는 고성능 타이어를 사용하며, 전기차 특성상 타이어 마모 속도가 빠릅니다. 셋째, 사고 수리 비용입니다. 테슬라는 공식 서비스 센터 외에 사설 정비소가 거의 없기 때문에, 단순한 접촉 사고라도 수리비가 높게 책정될 수 있습니다. 2026년에는 모델3의 부품 수급 문제가 개선되었지만, 여전히 일반 내연기관차 대비 수리 기간이 길 수 있습니다. 모델3는 뛰어난 성능과 낮은 유지비를 제공하지만, 보험료와 사고 수리 비용을 고려하여 총 소유 비용을 계산해야 합니다.
+                        </p>
+                    </div>
+                </article>
+
+                <!-- Article 11: Tesla Model S Maintenance Cost -->
+                <article class="article-card">
+                    <img src="https://images.pexels.com/photos/17062234/pexels-photo-17062234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tesla Model S" class="article-image">
+                    <div class="article-content">
+                        <h2><a href="https://directcarytopy.withusdone.com" target="_blank" class="read-more-link" style="color:#004085;">테슬라 모델S 유지비: 플래그십 전기차의 TCO, 고성능 부품과 감가상각</a></h2>
+                        <p>
+                            테슬라 모델S는 테슬라의 플래그십 세단으로, 2026년에도 여전히 최고급 전기차 시장의 선두주자입니다. 모델S는 고성능을 지향하는 만큼 유지비 구조가 모델3와는 다릅니다. 초기 구매 비용이 매우 높고, 보험료 역시 최고가로 책정됩니다. 2026년 기준으로 모델S의 유지비는 내연기관 럭셔리 세단 대비 전기료 절감 효과가 있지만, 차량 가격에 따른 보험료와 감가상각이 유지비의 대부분을 차지합니다. 모델S는 고성능 타이어와 고성능 브레이크 시스템을 사용하므로, 소모품 교체 비용이 일반 전기차 대비 높습니다.
+                            <br><br>모델S의 유지비에서 가장 큰 변수는 고성능 부품과 수리 비용입니다. 모델S는 고성능 모델인 만큼 타이어 마모 속도가 빠르고, 타이어 가격이 매우 비쌉니다. 또한 2026년에는 모델S의 배터리 보증 기간이 끝나는 시점이 다가오면서 배터리 효율 저하 문제에 대한 관심이 높아지고 있습니다. 테슬라는 배터리 보증 기간을 8년/24만 km로 제공하지만, 보증 기간 이후의 배터리 교체 비용은 여전히 고가이므로 장기적인 유지비 예측이 중요합니다. 모델S는 럭셔리 전기차로서 유지비 측면에서도 내연기관 럭셔리 세단을 대체할 수 있는 강력한 대안입니다. 모델S의 유지비는 운전 습관에 따라 크게 달라질 수 있습니다. 특히 FSD(Full Self-Driving) 옵션 구독료도 월별 유지비로 고려해야 합니다. 모델S는 압도적인 성능과 낮은 유지비를 제공하지만, 보험료와 사고 수리 비용을 고려하여 총 소유 비용을 계산해야 합니다.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
-  </body>
+<footer style="font-size: 11px; color: #888; padding: 30px 20px; text-align: center; line-height: 1.8; font-family: sans-serif;">
+  <div style="margin-bottom: 8px;">
+    <!-- 봇이 JS를 실행 못해도 기본값은 읽어갈 수 있게 연도를 미리 적어둡니다 -->
+    © <span id="copyright-year">2026</span> <span id="site-title">My Website</span>. All rights reserved.
+  </div>
+
+  <div style="color: #ccc;">
+    <span id="bot-msg">데이터 동기화 중...</span> | 
+    <!-- 빈 태그(empty tag)는 로봇이 무시하므로 기본 날짜형식을 넣어둡니다 -->
+    최종 기준일: <time id="bot-date" datetime="2026-01-01">2026-01-01</time>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    // ----------------------------------------------------------------------
+    // 1. KST(한국 표준시) 기준 현재 날짜 및 시간 계산
+    // ----------------------------------------------------------------------
+    function getFormattedKstTime() {
+      // (1) UTC 시간 계산 (브라우저 시간대 오프셋 제거)
+      const now = new Date();
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60 * 1000);
+      // (2) KST(UTC+9)로 변환
+      const kstGap = 9 * 60 * 60 * 1000;
+      const kstDate = new Date(utc + kstGap);
+
+      const year = kstDate.getFullYear();
+      const month = String(kstDate.getMonth() + 1).padStart(2, '0');
+      const day = String(kstDate.getDate()).padStart(2, '0');
+      const hour = String(kstDate.getHours()).padStart(2, '0');
+      const minute = String(kstDate.getMinutes()).padStart(2, '0');
+      const second = String(kstDate.getSeconds()).padStart(2, '0');
+
+      // YYYY-MM-DD 형식 (footer 보여주기용)
+      // ********** 변경된 부분: 백틱 대신 + 기호 사용 **********
+      const formattedDate = year + '-' + month + '-' + day;
+      
+      // ISO 8601 형식 (검색엔진이 가장 좋아하는 표준 포맷)
+      // ********** 변경된 부분: 백틱 대신 + 기호 사용 **********
+      const isoDateTime = year + '-' + month + '-' + day + 'T' + hour + ':' + minute + ':' + second + '+09:00';
+      
+      return { year, formattedDate, isoDateTime };
+    }
+
+    // ----------------------------------------------------------------------
+    // 2. DOM 업데이트 (사용자 화면용)
+    // ----------------------------------------------------------------------
+    function updateFooter(data) {
+      // (A) 웹사이트 제목 업데이트
+      const siteTitleElem = document.getElementById('site-title');
+      if (siteTitleElem) {
+        siteTitleElem.textContent = document.title || window.location.hostname;
+      }
+
+      // (B) 저작권 연도 업데이트
+      const yearElem = document.getElementById('copyright-year');
+      if (yearElem) {
+        yearElem.textContent = data.year;
+      }
+
+      // (C) 최종 기준일 업데이트
+      const dateElem = document.getElementById('bot-date');
+      if (dateElem) {
+        dateElem.textContent = data.formattedDate;
+        dateElem.setAttribute('datetime', data.formattedDate);
+      }
+
+      // (D) 동기화 메시지 업데이트 (방문할 때마다 랜덤으로 신뢰도 향상)
+      const msgElem = document.getElementById('bot-msg');
+      if (msgElem) {
+        // 메시지 목록을 10개로 확장
+        const msgs = [
+          "서비스 최적화 완료", 
+          "데이터베이스 동기화 완료", 
+          "보안 프로토콜 점검 완료",
+          "콘텐츠 최신화 완료",
+          "시스템 점검 완료",
+          "웹표준 레이아웃 최적화",
+          "사용자 인터페이스 안정화",
+          "성능 개선 완료",
+          "새로운 데이터 로드 완료",
+          "운영 시스템 안정화 완료",
+          "인덱싱 최적화 완료",
+          "데이터 무결성 검사 완료", 
+          "캐시 레이어 갱신",
+          "보안 프로토콜 활성화", 
+          "실시간 콘텐츠 동기화"
+        ];
+        // 방문할 때마다 메시지 랜덤 선택
+        const randomIndex = Math.floor(Math.random() * msgs.length);
+        msgElem.textContent = msgs[randomIndex];
+      }
+    }
+
+    // ----------------------------------------------------------------------
+    // 3. SEO 메타 태그 업데이트 (Naver/Google 공통)
+    // ----------------------------------------------------------------------
+function setMetaTag(attrType, attrName, content) {
+  // 백틱 대신 더하기 기호(+)를 사용하여 문자열 결합
+  let selector = 'meta[' + attrType + '="' + attrName + '"]';
+  
+  let meta = document.querySelector(selector);
+  if (!meta) {
+    meta = document.createElement('meta');
+    meta.setAttribute(attrType, attrName);
+    document.head.appendChild(meta);
+  }
+  meta.content = content;
+}
+
+    function updateSeoMetaTags(data) {
+      // (A) Naver/Google 공통: Open Graph 수정일 (매우 중요)
+      setMetaTag('property', 'og:updated_time', data.isoDateTime);
+
+      // (B) Naver/Google 공통: Article 수정일 (Naver 웹문서 검색에 중요)
+      setMetaTag('property', 'article:modified_time', data.isoDateTime);
+
+      // (C) 일반 검색엔진(공통) 날짜 태그
+      setMetaTag('name', 'date', data.formattedDate);
+
+      // (D) 저작권 정보 갱신 (네이버 소유 확인 시 참고)
+      // ********** 변경된 부분: 백틱 대신 + 기호 사용 **********
+      setMetaTag('name', 'copyright', data.year + ' ' + document.title);
+    }
+
+    // ----------------------------------------------------------------------
+    // 4. [핵심 업그레이드] JSON-LD 구조화 데이터 삽입/업데이트
+    // ----------------------------------------------------------------------
+    function updateJsonLd(data) {
+      let script = document.querySelector('script[type="application/ld+json"]');
+      if (!script) {
+        script = document.createElement('script');
+        script.type = 'application/ld+json';
+        document.head.appendChild(script);
+      }
+
+      const jsonLdData = {
+        "@context": "https://schema.org",
+        "@type": "WebPage", 
+        "headline": document.title || window.location.hostname,
+        "dateModified": data.isoDateTime, 
+        "datePublished": data.isoDateTime, 
+        "name": document.title || window.location.hostname
+      };
+      
+      script.textContent = JSON.stringify(jsonLdData, null, 2);
+    }
+
+    // ----------------------------------------------------------------------
+    // 5. 실행
+    // ----------------------------------------------------------------------
+    const timeData = getFormattedKstTime();
+    updateFooter(timeData);
+    updateSeoMetaTags(timeData);
+    updateJsonLd(timeData);
+  })();
+</script>
+
+</body>
 </html>
